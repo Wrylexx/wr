@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Основи веб-розробки — Мій перший сайт</title>
+  <meta name="description" content="Сайт для практичної роботи з основ веб-розробки. Вивчення HTML5, семантики та SEO.">
+  <meta name="keywords" content="веб-розробка, html5, css, практична, студент">
+  <meta name="author" content="Шевченко Тарас">
+
+  <meta property="og:title" content="Основи веб-розробки">
+  <meta property="og:description" content="Практична робота №5 з веб-розробки">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="preview.jpg">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Мій Сайт</div>
+    <nav aria-label="Головне меню сайту">
+      <ul>
+        <li><a href="#about">Про сайт</a></li>
+        <li><a href="#info">Інформація</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <h1>Практична робота №5 з веб-розробки</h1>
+
+    <section id="about">
+      <h2>Про роботу</h2>
+      <p>Це мій навчальний проєкт. Тут я роблю верстку за допомогою нових тегів HTML5.</p>
+      
+      <div class="cards">
+        <article class="card">
+          <h3>HTML5 Теги</h3>
+          <img src="html.png" alt="Логотип HTML5">
+          <p>Використання тегів header, nav, main, section та article замість div.</p>
+        </article>
+
+        <article class="card">
+          <h3>Доступність</h3>
+          <img src="a11y.png" alt="Значок доступності сайту">
+          <p>Додавання атрибутів alt та aria-label для зручності користувачів.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="info">
+      <h2>Основна інформація</h2>
+      <p>Нижче розміщено декілька карток з описом та довідковий блок.</p>
+
+      <div class="content-box">
+        <div class="articles-list">
+          <article class="card">
+            <h3>Перший модуль</h3>
+            <p>Вивчення базової структури документа та створення перших сторінок.</p>
+          </article>
+          
+          <article class="card">
+            <h3>Другий модуль</h3>
+            <p>Оформлення сторінок за допомогою таблиць стилів CSS.</p>
+          </article>
+        </div>
+
+        <aside>
+          <h3>Цікавий факт</h3>
+          <p>Семантичні теги допомагають пошуковим системам краще розуміти вміст сторінки.</p>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Автор: Шевченко Тарас | 2026 рік | Дисципліна: Основи web-розробки</p>
+    <p>E-mail: student@example.com</p>
+  </footer>
+
+  <a href="#main-content" class="up-btn" aria-label="Повернутися на початок сторінки">
+    <span aria-hidden="true">↑</span>
+  </a>
+
+</body>
+</html>
